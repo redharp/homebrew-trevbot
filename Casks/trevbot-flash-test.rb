@@ -12,8 +12,10 @@ cask "trevbot-flash-test" do
   app "trev.bot native test.app"
 
   # Third-party postflight compatibility DSL; explicit consent for this app only.
+  # Homebrew 7 launches with env -i: only HOMEBREW_* and its fixed allowlist survive.
+  # An unprefixed opt-in installed the app but silently skipped this postflight.
   postflight do
-    if ENV["TREVBOT_ALLOW_UNSIGNED_TEST_BUILD"] == "1"
+    if ENV["HOMEBREW_TREVBOT_ALLOW_UNSIGNED_TEST_BUILD"] == "1"
       installed_app = appdir.join("trev.bot native test.app")
       unless installed_app.directory? && !installed_app.symlink?
         raise "Unexpected trev.bot test app destination"
