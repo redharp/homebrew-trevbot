@@ -1,15 +1,15 @@
 cask "trevbot-flash-dev" do
-  version "0.6.0-beta.87,21d686087a460ad44d3ef8b5829e2962a4fb4615"
+  version "0.6.0-beta.88,2d0fc534b24d6e6169b4d868f0ddb9fad2f76aa1"
 
   on_arm do
-    sha256 "a7534747a2e6312f70a27639c278cc8a98a16fd89a34a07531092c9765402b25"
+    sha256 "be621f77e9595d24f01afeb928f7b0841b2a9499c6f596a751f3c842909aa2c7"
 
-    url "https://trevbot.proxius.trevorold.dev/downloads/releases/21d686087a460ad44d3ef8b5829e2962a4fb4615/trevbot-flash-dev-0.6.0-beta.87-arm64.dmg"
+    url "https://trevbot.proxius.trevorold.dev/downloads/releases/2d0fc534b24d6e6169b4d868f0ddb9fad2f76aa1/trevbot-flash-dev-0.6.0-beta.88-arm64.dmg"
   end
   on_intel do
-    sha256 "258cc44c5ebf6f88f7baaea7980811498d238e9bb0b4653820e48345282163a5"
+    sha256 "b581489c7f5f28284a0fd410a15a5e2ac954536e6f3d93217e9a95fca0befa8f"
 
-    url "https://trevbot.proxius.trevorold.dev/downloads/releases/21d686087a460ad44d3ef8b5829e2962a4fb4615/trevbot-flash-dev-0.6.0-beta.87-intel.dmg"
+    url "https://trevbot.proxius.trevorold.dev/downloads/releases/2d0fc534b24d6e6169b4d868f0ddb9fad2f76aa1/trevbot-flash-dev-0.6.0-beta.88-intel.dmg"
   end
 
   name "trev.bot flash dev"

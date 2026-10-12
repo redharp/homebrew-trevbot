@@ -11,6 +11,6 @@ brew upgrade --cask redharp/trevbot/trevbot-flash-dev
 
 Requires macOS 12 or newer. The development app has its own bundle identifier and app name. Homebrew preserves normal macOS trust checks.
 
-Version: 0.6.0-beta.87
-arm64 SHA-256: a7534747a2e6312f70a27639c278cc8a98a16fd89a34a07531092c9765402b25
-intel SHA-256: 258cc44c5ebf6f88f7baaea7980811498d238e9bb0b4653820e48345282163a5
+Version: 0.6.0-beta.88
+arm64 SHA-256: be621f77e9595d24f01afeb928f7b0841b2a9499c6f596a751f3c842909aa2c7
+intel SHA-256: b581489c7f5f28284a0fd410a15a5e2ac954536e6f3d93217e9a95fca0befa8f
