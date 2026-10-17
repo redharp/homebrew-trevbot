@@ -10,7 +10,7 @@ cask "trevbot-demo" do
   homepage "https://trev.bot/"
 
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "trev.bot Demo.app"
 
