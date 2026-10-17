@@ -1,17 +1,12 @@
 cask "trevbot-demo" do
-  version "demo-20261010-0c7be65"
-  on_arm do
-    sha256 "a1fe5aa029d8af9e61b1942bac226f1f089360283c5d6be331d9ac7551fe8926"
-    url "https://github.com/redharp/homebrew-trevbot/releases/download/demo-20261010-bbb5b24/trevbot-demo-macos-arm64-bbb5b24.zip"
-  end
-  on_intel do
-    sha256 "ee5aa30b578cfd8157f0cefb56d7365dbc45c026daabd6ac5932e15f402321af"
-    url "https://github.com/redharp/homebrew-trevbot/releases/download/demo-intel-20261010-0c7be65/trevbot-demo-macos-x86_64-0c7be65.zip"
-  end
+  version "demo-20261016-75eb70b"
+  sha256 "246ad9bf1bb239696673b1b0e945f8b5deb4dd821da9abcb64155107da871b9d"
+  url "https://github.com/redharp/homebrew-trevbot/releases/download/demo-20261016-75eb70b/trevbot-demo-macos-arm64-75eb70b.zip"
   name "trev.bot Demo"
-  desc "Simulated LG and Pioneer flashing demo; no drive access"
+  desc "Interactive optical-drive simulation; no drive access"
   homepage "https://trev.bot"
 
+  depends_on arch: :arm64
   depends_on macos: ">= :big_sur"
 
   app "trev.bot Demo.app"

@@ -1,4 +1,8 @@
-# trev.bot macOS test build
+# trev.bot Homebrew tap
+
+For the Apple Silicon interactive demo, see [the demo instructions](README-trevbot-demo.md).
+
+## macOS test build
 
 Requires an Apple Silicon Mac and [Homebrew](https://brew.sh).
 
