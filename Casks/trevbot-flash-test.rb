@@ -1,8 +1,8 @@
 cask "trevbot-flash-test" do
-  version "rust-test-20261008-450392a"
-  sha256 "319756068a2e5b1b5813768862ae128ab20643d786fff39eeb2bba7024c0bb05"
+  version "rust-test-20261024-02568e9f"
+  sha256 "50a89728e6c8dfb187ed60f1ae70be54ca87bb433da59b848ba4557620e963c6"
 
-  url "https://github.com/redharp/homebrew-trevbot/releases/download/rust-test-20261008-450392a/trevbot-native-test-macos-arm64.zip"
+  url "https://github.com/redharp/homebrew-trevbot/releases/download/rust-test-20261024-02568e9f/trevbot-native-test-macos-arm64.zip"
   name "trev.bot native test"
   desc "Optical drive desktop test build"
   homepage "https://trev.bot"

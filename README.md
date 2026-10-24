@@ -27,4 +27,4 @@ Uninstall with `brew uninstall --cask redharp/trevbot/trevbot-flash-test`.
 Keep your existing app and saved operation records. Do not repeat a completed flash.
 Send an exported support report with any issue.
 
-Pinned test release: [rust-test-20261008-450392a](https://github.com/redharp/homebrew-trevbot/releases/tag/rust-test-20261008-450392a).
+Pinned test release: [rust-test-20261024-02568e9f](https://github.com/redharp/homebrew-trevbot/releases/tag/rust-test-20261024-02568e9f).
