@@ -1,14 +1,14 @@
 cask "trevbot-flash" do
-  version "1.0.16"
+  version "1.0.17"
 
   on_arm do
-    sha256 "03869d334aa7a42a6561656fee2091fa57d261468d109927ce193b1e9e916b70"
-    url "https://api.trev.bot/v1/desktop-download/platform/d7a538dab6071381956b3ea70ea279a442b1ed21/darwin-aarch64/trevbot-flash-1.0.16-arm64.dmg"
+    sha256 "3b3d9d1063dbf847b324a0baf5c00a8bb265e49059a1b62cbf14132c55cc2138"
+    url "https://api.trev.bot/v1/desktop-download/platform/dcb60ce3f77d76bab60fdbadd5933055c06ee095/darwin-aarch64/trevbot-flash-1.0.17-arm64.dmg"
   end
 
   on_intel do
-    sha256 "e7003ce57b4169411ef3bb6bcdd2d465f45192cc396688cb66028f1aa07e6a4e"
-    url "https://api.trev.bot/v1/desktop-download/platform/d7a538dab6071381956b3ea70ea279a442b1ed21/darwin-x86_64/trevbot-flash-1.0.16-intel.dmg"
+    sha256 "c5723f4dc4c09f69c9979207c3f44652be2ce192054f139c676b37b00f150111"
+    url "https://api.trev.bot/v1/desktop-download/platform/dcb60ce3f77d76bab60fdbadd5933055c06ee095/darwin-x86_64/trevbot-flash-1.0.17-intel.dmg"
   end
 
   name "trev.bot flash"
